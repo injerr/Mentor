@@ -1,0 +1,10 @@
+@import url('./fonts.css');
+
+
+*{
+    font-family: 'Poppins';
+}
+
+.title{
+    color: #443023;
+}
