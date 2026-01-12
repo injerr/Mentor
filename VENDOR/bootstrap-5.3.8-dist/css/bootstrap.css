@@ -269,7 +269,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 
 abbr[title] {
@@ -8063,7 +8063,7 @@ textarea.form-control-lg {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 20px !important;
 }
 
 .mb-5 {
