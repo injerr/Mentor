@@ -15,9 +15,8 @@
 
 #Hero1 {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     color: white;
-    overflow: hidden;
 }
 
 #Hero1::before {
