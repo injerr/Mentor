@@ -7,25 +7,111 @@
     <link rel="stylesheet" href="CSS/main.css">
     <title>Mentor - WordPress Template for Elementor</title>
 </head>
+<!-- <header id="navbar" class="fixed-top container-fluid" style="height: 50px;">
+    <nav>
+        hola
+        <span id="try"></span>
+    </nav>
+</header> -->
+
 <body>
-    <div class="container p-5">
-        <h1 class="fs-1">Hola</h1>
-        <button class="btn btn-primary">Button 1</button>
-        <button dis class="btn btn-secondary">Button 1</button>
-        <button class="btn btn-outline-primary">Button 1</button>
-        <button class="btn btn-outline-secondary">Button 1</button>
+    <!-- START SECTION -->
+    <div id="Hero1" class="container-fluid d-flex align-items-center justify-content-center ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <h1 class="title-hero mb-4">Let The Change Begin Within You.</h1>
+                    <div id="hero-content" class="pb-4">
+                        <p>Empower young minds with OceanWP’s Mentor full website template.</p>
+                        <p>This template fosters connections and provides a platform for aspiring individuals to learn from experienced professionals. Its interactive features and beautiful design elements help create a safe haven for those seeking to improve themselves.</p>
+                        <p>Customize the theme easily with OceanWP’s intuitive options to reflect your unique mentoring program. Replace this text with a short description of your mentoring program to grab their attention fast.</p>
+                    </div>
+
+                    <a id="modal" class="btn fw-bold"><span class="me-2">PLAY VIDEO</span><i class="fa-sharp fa-solid fa-circle-play"></i></a>
+                </div>
+            </div>
+
+        </div>
+        
     </div>
-    <div class="container-fluid p-3 bg-primary ">
-        <h1 class="">hola</h1>
-        <p class="fw-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quae reprehenderit. Amet odio non harum ex accusantium aliquid ullam consequatur doloremque deleniti porro. Quaerat facere cumque vitae aspernatur amet perferendis.</p>
+    <!-- END SECTION -->
+
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 border-end border-secondary border-opacity-25">
+                    <div class="box d-flex row text-center justify-content-center p-3">
+                        <img class="box-img" src="./IMG/connection.png" alt="connection">
+                        <div class="box-content">
+                            <p class="fw-bold image-box-title">SOCIAL<br>GATHERING</p>
+                            <p class="fs-14px">Launching your mentorship or life coaching website is now easier with the Mentor full website template by OceanWP.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 border-end border-secondary border-opacity-25">
+                    <div class="box d-flex row text-center justify-content-center p-3">
+                        <img class="box-img" src="./IMG/growth-mindset.png" alt="connection">
+                        <div class="box-content">
+                            <p class="fw-bold image-box-title text-uppercase">SOCIAL<br>GATHERING</p>
+                            <p class="fs-14px">Launching your mentorship or life coaching website is now easier with the Mentor full website template by OceanWP.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-12 col-md-6 col-lg-3 border-end border-secondary border-opacity-25">
+                    <div class="box d-flex row text-center justify-content-center p-3">
+                        <img class="box-img" src="./IMG/planner.png" alt="connection">
+                        <div class="box-content">
+                            <p class="fw-bold image-box-title text-uppercase">Personalized<br>sessions</p>
+                            <p class="fs-14px">Launching your mentorship or life coaching website is now easier with the Mentor full website template by OceanWP.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="box d-flex row text-center justify-content-center p-3">
+                        <img class="box-img" src="./IMG/psychologist-1.png" alt="connection">
+                        <div class="box-content">
+                            <p class="fw-bold image-box-title text-uppercase">Personalized<br>Workshops</p>
+                            <p class="fs-14px">Launching your mentorship or life coaching website is now easier with the Mentor full website template by OceanWP.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="container-fluid bg-secondary ">
-        <h1 class="title fw-bold text-uppercase">Mission & Philosophy</h1>
-    </div>
+    
 
    <!-- SCRIPTS -->
     <script src="https://kit.fontawesome.com/bde672e2c3.js" crossorigin="anonymous"></script>
     <script src="/VENDOR/bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+    <!-- <script>
+        const title = document.getElementById("title")
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    
+                }
+            });
+        })
+
+        observer.observe(!title);
+    </script> -->
+    <!-- <script>
+        const __try = document.getElementById("try");
+        const navbar = document.getElementById("navbar");
+        const listener = document.addEventListener('wheel', e =>{
+            __try.innerHTML = pageYOffset
+            if (Number(pageYOffset) != 0) {
+                navbar.className = "fixed-top container-fluid bg-secondary";
+            }else if(Number(pageYOffset) == 0){
+                navbar.className = "fixed-top container-fluid";
+            }
+        })
+    </script> -->
 </body>
 </html>

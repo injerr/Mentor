@@ -4,6 +4,13 @@
 *{
     font-family: 'Poppins',sans-serif;
 }
+
+
+p{
+    margin: 0 0 20px !important;
+    color: black;
+}
+
 ::selection{
     color: #fff;
     background: #333;
@@ -54,9 +61,14 @@
     font-size: 16px;
 }
 
-p{
-    margin: 0 0 20px !important;
+#hero-content > p {
+    color: white;
 }
+
+#navbar{
+    transition: 0.3s;
+}
+
 
 .fs-16px{
     font-size: 16px;
@@ -69,4 +81,30 @@ p{
 .image-box-title{
     font-size: 21px;
     margin: 0px 0px 10px !important;
+}
+
+.box-img{
+    width: 7.625rem;
+    margin-bottom: .8rem;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .box-img{
+        width: 11.25rem;
+    }
+}
+
+/* Tablet 2? xd*/
+@media (max-width: 768px) {
+    .box-img{
+        width: 8.125rem;
+    }
+}
+
+/* MOVIL */
+@media (max-width: 390px) {
+    .box-img{
+        width: 7.125rem;
+    }
 }
