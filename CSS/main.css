@@ -74,6 +74,22 @@ p{
     transition: 0.3s;
 }
 
+.min-vh-40 {
+  min-height: 40vh !important;
+}
+
+#btn-submit-form{
+    background-color: rgb(192, 160, 113);
+    border: 1px solid #443023;
+    font-size: 14px;
+    padding: 10px 20px !important;
+    font-weight: 600;
+}
+
+#contact-section{
+    padding-left: 15.625rem !important;
+}
+
 
 .fs-16px{
     font-size: 16px;
@@ -104,6 +120,7 @@ p{
 #box-3{
     border-right: 1px solid rgba(192, 160, 113, 0.25)
 }
+
 
 /* Tablet */
 @media (max-width: 1024px) {
@@ -142,6 +159,7 @@ p{
         border-bottom: 1px solid rgba(192, 160, 113, 0.25);
         border-right: none;
     }
+
 }
 
 /* MOVIL */

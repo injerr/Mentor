@@ -110,11 +110,81 @@
         </div>
     </div>
 
+
+    <!-- FORMULARIO DE CONTACTO-->
+    <div class="container-fluid py-md-5">
+        <div class="py-md-5">
+            <div class="row p-0">
+                <div class="col-md-6 col-12 py-5 d-md-flex d-block justify-content-md-end justify-content-start">
+                    <div class="col-lg-9 col-md-10 col-12 pe-md-4 px-md-0 px-4">
+                        <h3 class="fw-bold fs-1 title">CONTACT US</h3>
+                        <p>Get in touch with us and find out what programs and coaching sessions would fit your personality best and help you become the best version of yourself.</p>
+                        <form class="needs-validation" id="" novalidate>
+                            <!-- NAME FIRST -->
+                            <div class="mb-3">
+                                <div class="border-bottom border-opacity-25 mb-2">
+                                    <label for="first_name" class="form-label mb-1">Name *</label>
+                                </div>
+                                
+                                <input type="text" class="form-control" name="first_name" id="first_name"  required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div id="first_name" class="form-text">
+                                    First
+                                </div>
+                            </div>
+                            
+                            <!-- NAME LAST-->
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="last_name" id="last_name"  required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div id="last_name" class="form-text">
+                                    <label for="last_name">Last</label>
+                                </div>
+                            </div>
+
+                            <!-- EMAIL -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="text" class="form-control" name="email" id="email"  required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+
+                            <!-- TEXTAREA -->
+                            <div class="mb-3">
+                                <label for="textarea" class="form-label">Comment or Message</label>
+                                <textarea class="form-control" name="textarea" id="textarea" maxlength="250"></textarea>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <button class="btn" id="btn-submit-form" type="submit">SUBMIT</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+
+                </div>
+                <div class="col-md-6 col-12 min-vh-40 p-0">
+                    <iframe loading="lazy" class="rounded rounded-3" width="100%" height="100%" src="https://maps.google.com/maps?q=Grosvenor%20St%2C%20London%2C%20UK&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near" title="Grosvenor St, London, UK" aria-label="Grosvenor St, London, UK"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
     
 
    <!-- SCRIPTS -->
     <script src="https://kit.fontawesome.com/bde672e2c3.js" crossorigin="anonymous"></script>
     <script src="/VENDOR/bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+    <script src="./JS/main.js"></script>
     <!-- <script>
         const title = document.getElementById("title")
         const observer = new IntersectionObserver((entries) => {
