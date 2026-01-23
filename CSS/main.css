@@ -1,5 +1,6 @@
 @import url('./fonts.css');
 
+
 *{
     font-family: 'Poppins',sans-serif;
 }
@@ -92,10 +93,32 @@ p{
     margin-bottom: .8rem;
 }
 
+#box-1{
+    border-right: 1px solid #c0a07140;
+}
+
+#box-2{
+    border-right: 1px solid rgba(192, 160, 113, 0.25)
+}
+
+#box-3{
+    border-right: 1px solid rgba(192, 160, 113, 0.25)
+}
+
 /* Tablet */
 @media (max-width: 1024px) {
     .box-img{
         width: 11.25rem;
+    }
+
+    #box-1{
+        border-right: 1px solid #c0a07140;
+        border-bottom: 1px solid #c0a07140;
+    }
+
+    #box-2{
+        border-bottom: 1px solid rgba(192, 160, 113, 0.25);
+        border-right: none;
     }
 }
 
@@ -104,6 +127,21 @@ p{
     .box-img{
         width: 8.125rem;
     }
+    
+    #box-1{
+        border-bottom: 1px solid #c0a07140;
+        border-right: none;
+    }
+
+    #box-2{
+        border-bottom: 1px solid #c0a07140;
+        border-right: none;
+    }
+
+    #box-3{
+        border-bottom: 1px solid rgba(192, 160, 113, 0.25);
+        border-right: none;
+    }
 }
 
 /* MOVIL */
@@ -111,8 +149,4 @@ p{
     .box-img{
         width: 7.125rem;
     }
-}
-
-.container{
-    width: 1140px !important;
 }
