@@ -1,62 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="VENDOR/bootstrap-5.3.8-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="CSS/latestArticles.css">
-    <title>Mentor - WordPress Template for Elementor</title>
+<head>
+  <meta charset="UTF-8">
+  <title>Latest Articles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="VENDOR/bootstrap-5.3.8-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="CSS/latestArticles.css">
 </head>
-<section class="py-5 blog" id="blog">
+
+<body>
+
+<section class="articles-section py-5">
   <div class="container">
 
-    <div class="text-center mb-5">
-      <h2 class="fw-bold">Latest Articles on Self-Improvement</h2>
-    </div>
+    <h2 class="article-title text-center mb-5 fw-bold">
+      Latest Articles On Self-Improvement
+    </h2>
 
-    <div class="row gx-4 gy-4">
+    <div class="row justify-content-center ">
 
-      <!-- POST -->
-      <div class="col-lg-6">
-        <article class="blog-item position-relative">
-
-  <img src="IMG/post1.jpg" class="img-fluid w-100" alt="">
-
-  <div class="blog-title-box">
-    <span class="text-uppercase small text-muted">News</span>
-
-    <h4 class="mt-2 fw-semibold mb-0">
-      Why OceanWP’s Mentor Template is Perfect for Building Your Mentoring Website
-    </h4>
-  </div>
-
-</article>
-      </div>
-
-      <!-- POST -->
-      <div class="col-lg-6">
-        <article class="blog-item">
-
-          <img src="IMG/post2.jpg" class="img-fluid w-100" alt="">
-
-          <div class="mt-3">
-            <span class="text-uppercase small text-muted">News</span>
-
-            <h4 class="mt-2 fw-semibold">
-              Why OceanWP’s Mentor Demo is the Perfect Platform for Your Growth
-            </h4>
+      <!-- Card 1 -->
+        <div class="article-wrapper">
+          <div class="article-card">
+            <img src="IMG/post1.jpg" alt="">
+            <div class="article-content">
+            <span class="news-badge  text-white"><strong>NEWS</strong></span>
+              <h5 class="mb-0 fw-semibold bg-white article-text">
+                Why OceanWP’s Mentor Template Is Perfect<br>
+                For Building Your Mentoring Website
+              </h5>
+            </div>
           </div>
+      </div>
 
-        </article>
+      <!-- Card 2 -->
+        <div class="article-wrapper d-none d-xl-flex">
+          <div class="article-card">
+            <img src="IMG/post2.jpg" alt="">
+            <div class="article-content">
+            <span class="news-badge  text-white"><strong>NEWS</strong></span>
+              <h5 class="mb-0 fw-semibold bg-white article-text">
+                Why OceanWP’s Mentor Demo Is The Perfect<br>
+                Platform For Your Growth
+              </h5>
+            </div>
+          </div>
       </div>
 
     </div>
-
-    <div class="text-center mt-5">
-      <a href="#" class="btn btn-secondary text-dark px-4">ALL POSTS</a>
+    <!-- Button -->
+    <div class="text-center mt-3">
+      <a href="#" class="btn btn-secondary text-dark   px-4 py-2">ALL POSTS</a>
     </div>
 
   </div>
 </section>
 
+</body>
 </html>
