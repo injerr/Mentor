@@ -44,6 +44,35 @@ p{
     font-weight: bold;
 }
 
+.nav-link{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.nav-link::after{
+    background-color: #c0a071;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    bottom: 5px;
+    left: -100%;
+    transition: all .3s ease;
+}
+
+.nav-link:hover{
+    color: #c0a071 !important;
+}
+
+.nav-link:hover::after{
+    left: 0;
+    transition: all .3s ease;
+}
+
 
 
 #modal{
@@ -70,8 +99,31 @@ p{
     color: white;
 }
 
-#navbar{
+.navbar{
     transition: 0.3s;
+    max-height: 74px;
+}
+
+.is-sticky{
+    max-height: 62px;
+    background-color: none !important;
+}
+
+.navbar.is-sticky .nav-link {
+  color: #333 !important;
+}
+
+.navbar-brand{
+    height: 58px;
+    transition: .3s ease;
+}
+.navbar.is-sticky .navbar-brand{
+    height: 45px;
+    transition: .3s ease;
+}
+
+.nav-link{
+    color: white !important;
 }
 
 .min-vh-40 {
