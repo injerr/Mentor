@@ -33,7 +33,7 @@ p{
     background-image: url('../IMG/owp-mentor-hero.jpg');
     background-size: cover;
     background-position: center;
-    filter: brightness(0.35); /* 👈 controla aquí el brillo */
+    filter: brightness(0.35);
     z-index: -1;
 }
 
@@ -106,11 +106,19 @@ p{
 
 .is-sticky{
     max-height: 62px;
-    background-color: none !important;
-}
+    background-color: white;
+} 
 
 .navbar.is-sticky .nav-link {
   color: #333 !important;
+}
+
+.navbar #bars{
+    color: white;
+}
+
+.navbar.is-sticky #bars{
+    color: black;
 }
 
 .navbar-brand{
@@ -146,7 +154,7 @@ p{
     display: flex; justify-content: space-between;
     width: 500px;
     height: 50px;
-    border: 1px solid white !important;
+    border: 1px solid white;
     padding:10px 10px;
     margin: 0px auto;
 }
@@ -154,10 +162,10 @@ p{
 #newsletter_input{
     width: 100%;
     outline: none;
-    background: none !important;
-    border: none !important;
+    background: none;
+    border: none;
     font-size: 14px;
-    background-color: none !important;
+    background-color: none;
     padding: 0px 15px;
     color: white;
 }
@@ -192,7 +200,7 @@ p{
 
 .image-box-title{
     font-size: 21px;
-    margin: 0px 0px 10px !important;
+    margin: 0px 0px 10px;
 }
 
 .box-img{
@@ -213,7 +221,7 @@ p{
 }
 
 .footer-ul li::marker{
-    display: none !important;
+    display: none;
     content: "";
 }
 
