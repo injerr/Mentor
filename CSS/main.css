@@ -40,7 +40,7 @@ p{
 .title-hero{
     font-size: 72px;
     /*IMPORTAR LA FUENTE PLAYFAIR*/
-    font-family: 'PlayFair Display', sans-serif;
+    font-family: 'PlayFair', sans-serif;
     font-weight: bold;
 }
 
@@ -359,6 +359,7 @@ p{
     .btn-secondary {
       font-size: 1.1rem;
       letter-spacing: 2px;
+      transition: .2s ease;
     }
 
 /* fin articles section */
@@ -446,3 +447,17 @@ p{
     border: 2px solid #826C4B;
 }
 /* fin about us section */
+
+.btn-secondary:hover{
+    transform: scale(0.9);
+    background-color: #292929;
+    color: white !important;
+}
+
+.container{
+    max-width: 1200px !important;
+}
+
+ #Hero1 .container{
+    max-width: 1140px !important;
+ }
