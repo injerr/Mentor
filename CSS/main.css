@@ -376,10 +376,6 @@ p{
 
 
 
-.quitar {
-    height: 68px;
-}
-
 .about-trainings {
     background-color: #2b2b2b;
     color: white;
@@ -446,3 +442,117 @@ p{
     border: 2px solid #826C4B;
 }
 /* fin about us section */
+/* mission section */
+/* =========================
+   MISSION SECTION
+   ========================= */
+
+.mission-section {
+    padding: 120px 0;
+    background-color: #ffffff;
+}
+
+.mission-section .container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+/* =========================
+   TEXT BLOCK
+   ========================= */
+
+.mission-text {
+    padding-right: 30px;
+}
+
+.mission-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #3f2d1f;
+    margin-bottom: 25px;
+    letter-spacing: 0.1px;
+}
+
+.mission-quote {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.30rem;
+    line-height: 1.7;
+    color: #1f1f1f;
+    max-width: 520px;
+    margin-bottom: 40px;
+}
+.mission-section .mission-quote:first-of-type {
+    font-weight: 600;
+}
+.mission-inverted .mission-quote2 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+.mission-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* =========================
+   IMAGE
+   ========================= */
+
+.mission-image {
+    width: 100%;
+    max-width: 560px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.mission-image:last-child {
+    padding-bottom: 30px;   
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 991px) {
+    .mission-section {
+        padding: 80px 0;
+    }
+
+    .mission-text {
+        padding-right: 0;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .mission-quote {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mission-buttons {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+}
+/* =========================
+   INVERTED MISSION SECTION
+   ========================= */
+
+.mission-inverted .mission-text {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 991px) {
+    .mission-inverted .mission-text {
+        padding-left: 0;
+    }
+}

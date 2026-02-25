@@ -7,12 +7,16 @@
     background-color: #ffffff;
 }
 
+.mission-section .container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
 /* =========================
    TEXT BLOCK
    ========================= */
 
 .mission-text {
-    padding-right: 60px;
+    padding-right: 30px;
 }
 
 .mission-title {
@@ -30,6 +34,13 @@
     color: #1f1f1f;
     max-width: 520px;
     margin-bottom: 40px;
+}
+.mission-section .mission-quote:first-of-type {
+    font-weight: 600;
+}
+.mission-inverted .mission-quote2 {
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 /* =========================
@@ -77,7 +88,7 @@
 
 .mission-image {
     width: 100%;
-    max-width: 520px;
+    max-width: 560px;
     border-radius: 4px;
     object-fit: cover;
 }
@@ -112,7 +123,7 @@
    ========================= */
 
 .mission-inverted .mission-text {
-    padding-left: 60px;
+    padding-left: 30px;
     padding-right: 0;
 }
 
