@@ -16,3 +16,19 @@ Array.from(forms).forEach(form => {
     }, false)
 })
 })()
+
+const navbar = document.getElementById("navbar");
+const navbar_brand = document.getElementById("navbar-brand");
+const listener = document.addEventListener('scroll', e =>{
+    if (Number(window.pageYOffset) != 0) {
+        navbar.classList.add("is-sticky");
+        navbar.classList.add("bg-body-tertiary")
+        navbar_brand.src = "./IMG/owp-mentor-logo-b.png";
+    }else if(Number(window.pageYOffset) == 0){
+        navbar.classList.remove("is-sticky");
+        navbar.classList.remove("bg-body-tertiary")
+        navbar.classList.add("text-white")
+        navbar_brand.src = "./IMG/owp-mentor-logo-w.png";
+        
+    }
+})
