@@ -243,6 +243,10 @@ p{
 
 }
 
+.footer-collapse:hover{
+    cursor: pointer;
+}
+
 
 /* Tablet */
 @media (max-width: 1024px) {

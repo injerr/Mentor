@@ -7,23 +7,18 @@
     <link rel="stylesheet" href="CSS/main.css">
     <title>Mentor - WordPress Template for Elementor</title>
 </head>
-<!-- <header id="navbar" class="fixed-top container-fluid" style="height: 50px;">
-    <nav>
-        hola
-        <span id="try"></span>
-    </nav>
-</header> -->
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg">
+<nav id="navbar" class="navbar fixed-top navbar-expand-lg">
   <div class="container">
 
     <!-- LOGO -->
-    <img class="navbar-brand" src="./IMG/owp-mentor-logo-w.png" alt="Mentor">
+    <img id="navbar-brand" class="navbar-brand" src="./IMG/owp-mentor-logo-w.png" alt="Mentor">
 
     <!-- BOTÓN MÓVIL -->
     <button class="navbar-toggler d-lg-none"
             type="button"
+            id="offcanvas-menu"
             data-bs-toggle="offcanvas"
             data-bs-target="#mobileMenu">
       <i class="fa-solid fa-bars"></i>
@@ -67,7 +62,7 @@
 </div>
     <!-- START SECTION -->
 
-    <div id="Hero1" class="container-fluid p-sm-0 p-4 d-flex align-items-center justify-content-center ">
+    <div id="Hero1" class="container-fluid p-4 py-5 d-flex align-items-center justify-content-center ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 p-0 m-0">
@@ -161,7 +156,7 @@
 
     <!-- about us section -->
 
-    <section class="about-trainings">
+    <section id="about" class="about-trainings">
         <div class="container py-5 text-center">
 
             <!-- TÍTULO -->
@@ -300,7 +295,7 @@
     </section>
     <!-- missions section -->
 
-    <section class="mission-section">
+    <section id="our_mission" class="mission-section">
         <div class="container">
             <div class="row align-items-center">
 
@@ -365,7 +360,7 @@
 
     <!-- Last news section --> 
 
-    <section class="articles-section py-5">
+    <section id="blog" class="articles-section py-5">
         <div class="container">
 
             <h2 class="article-title text-center mb-5 fw-bold pt-5">
@@ -412,7 +407,7 @@
     </section>
 
     <!-- FORMULARIO DE CONTACTO-->
-    <div class="container-fluid py-md-5">
+    <div id="contact" class="container-fluid py-md-5">
         <div class="py-md-5">
             <div class="row p-0">
                 <div class="col-md-6 col-12 py-5 d-md-flex d-block justify-content-md-end justify-content-start">
@@ -541,8 +536,8 @@
                 <div id="accordionExample" class="d-sm-none d-block accordion row py-4 border-bottom border-secondary border-opacity-25">
                     <!-- ITEM 1 -->
                     <div class="col-lg-3 col-md-6 col-12" >
-                        <p class="fs-4 text-white fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <i class="fa-solid fa-arrow-down-short-wide"></i> QUICK LINKS
+                        <p class="fs-4 text-white fw-bold mb-1 d-flex justify-content-between footer-collapse" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            QUICK LINKS<i class="fa-solid fa-arrow-down-short-wide"></i> 
                         </p>
                         <ul id="collapseOne" class="acordion-collapse collapse p-0 fs-14px footer-ul" data-bs-parent="#accordionExample">
                             <li><i class="fas fa-dot-circle"></i><span class="ps-2">About us</span></li>
@@ -555,8 +550,8 @@
 
                     <!-- ITEM 2 -->
                     <div class="col-lg-3 col-md-6 col-12" >
-                        <p class="fs-4 text-white fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
-                            <i class="fa-solid fa-arrow-down-short-wide"></i> RESOURCES
+                        <p class="fs-4 text-white fw-bold mb-1 d-flex justify-content-between footer-collapse" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                            RESOURCES<i class="fa-solid fa-arrow-down-short-wide"></i> 
                         </p>
                         <ul id="collapseTwo" class="acordion-collapse collapse p-0 fs-14px footer-ul" data-bs-parent="#accordionExample">
                             <li><i class="fas fa-dot-circle"></i><span class="ps-2">Our Resources</span></li>
@@ -570,8 +565,8 @@
 
                     <!-- ITEM 3 -->
                     <div class="col-lg-3 col-md-6 col-12" >
-                        <p class="fs-4 text-white fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
-                            <i class="fa-solid fa-arrow-down-short-wide"></i> TERMS & CONDITIONS
+                        <p class="fs-4 text-white fw-bold mb-1 d-flex justify-content-between footer-collapse" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                            TERMS & CONDITIONS<i class="fa-solid fa-arrow-down-short-wide"></i> 
                         </p>
                         <ul id="collapseThree" class="acordion-collapse collapse p-0 fs-14px footer-ul" data-bs-parent="#accordionExample">
                             <li><i class="fas fa-dot-circle"></i><span class="ps-2">Cookie Preferences</span></li>
@@ -585,8 +580,8 @@
 
                     <!-- ITEM 4 -->
                     <div class="col-lg-3 col-md-6 col-12" >
-                        <p class="fs-4 text-white fw-bold mb-1" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
-                            <i class="fa-solid fa-arrow-down-short-wide"></i> CONTACT US
+                        <p class="fs-4 text-white fw-bold mb-1 d-flex justify-content-between footer-collapse" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                            CONTACT US<i class="fa-solid fa-arrow-down-short-wide"></i>
                         </p>
                         <ul id="collapseFour" class="acordion-collapse collapse p-0 fs-14px footer-ul" data-bs-parent="#accordionExample">
                             <li><i class="fas fa-mobile-alt"></i><span class="ps-2">+11 234 567 89</span></li>
@@ -618,32 +613,6 @@
     <script src="https://kit.fontawesome.com/bde672e2c3.js" crossorigin="anonymous"></script>
     <script src="/VENDOR/bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
     <script src="./JS/main.js"></script>
-    <!-- <script>
-        const title = document.getElementById("title")
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    
-                }
-            });
-        })
-
-        observer.observe(!title);
-    </script> -->
-    <!-- <script>
-        const __try = document.getElementById("try");
-        const navbar = document.getElementById("navbar");
-        const listener = document.addEventListener('wheel', e =>{
-            __try.innerHTML = pageYOffset
-            if (Number(pageYOffset) != 0) {
-                navbar.className = "fixed-top container-fluid bg-secondary";
-            }else if(Number(pageYOffset) == 0){
-                navbar.className = "fixed-top container-fluid";
-            }
-        })
-    </script> -->
-    <!-- marc script bootstrap para carrousel -->
-    <script src="VENDOR/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
