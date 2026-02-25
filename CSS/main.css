@@ -523,20 +523,47 @@ p{
    ========================= */
 
 @media (max-width: 991px) {
+
+    .mission-title:first-child {
+        padding-top: 40px;
+    }
+    /* Reduce padding vertical general */
     .mission-section {
-        padding: 80px 0;
+        padding: 30px 0;
     }
 
+    /* Reduce padding lateral del container */
+    .mission-section .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* Texto más compacto */
     .mission-text {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
+    }
+
+    .mission-title {
+        font-size: 1.9rem;
+        margin-bottom: 15px;
     }
 
     .mission-quote {
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 1.1rem;
+        margin-bottom: 25px;
     }
+
+    .mission-quote2 {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    /* Imagen sin tanto aire */
+    .mission-image {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
 
     .mission-buttons {
         justify-content: left;
